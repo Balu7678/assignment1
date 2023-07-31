@@ -4,7 +4,7 @@ if num1>num2:
 else:
   print(num2)
 
-#num1, num2 = 20 , 30
+#num1, num2 = 10 , 15
 #print((num1 if num1>num2 else num2))
 
 
