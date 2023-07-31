@@ -1,4 +1,4 @@
-string = "PythonPool"
+string = "aefvvnbfvbdgf"
 # number of words
 n = len(string)
 print(n)
