@@ -6,11 +6,12 @@
 
 #q2
 #my_dict=eval(input("enter a dictionary : "))
-#key = 2 ? how to take key value is user input
-#if key in my_dict.keys(): > if value in my_dict.values() 
-#    print("already key is exist")
-#else:
-#    print("key is not exist")
+#keys =eval(input("enter keys: "))
+#for key in keys:
+#    if key in my_dict.keys(): #> if value in my_dict.values() 
+#        print("already key is exist")
+#    else:
+#        print("key is not exist")
 
 #q3
 # my_dict=eval(input("enter a dictionary :"))
