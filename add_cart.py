@@ -28,9 +28,9 @@ class ShoppingCart:
 
 cart = ShoppingCart()
 
-cart.add_item("Papaya", 1,10)
-cart.add_item("Guava", 2,5)
-cart.add_item("Orange", 1,7)
+cart.add_item("tv", 1,10000)
+cart.add_item("phone", 2,50000)
+cart.add_item("watch", 1,700)
 
 print("Current Items in Cart:")
 for item in cart.items:
@@ -40,7 +40,7 @@ for item in cart.items:
 print("Total Quantity:", cart.calculate_total())
 print("Total Amount:", cart.total_amount())
 
-cart.remove_item("Orange")
+cart.remove_item("watch")
 
 print("\nUpdated Items in Cart after removing item:")
 for item in cart.items:
