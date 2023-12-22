@@ -68,5 +68,6 @@ class user_delete(APIView):
     def post(self,request,*args,**kwargs):
         request.user.delete()
         request.user.auth_token.delete()
-        return Response({"Note" : "Authorization was Succesful and token deleted ",
-            "message": "logout was successful"})
+        return Response({
+            "message": "user is successful delete"}
+            )
