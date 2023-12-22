@@ -123,4 +123,107 @@
 # s="mar"
 # print(max(s))
 
-# 
+# first vowel in string replace '-'
+
+# s="marolix"
+# s1=['a','e','i','o','u']
+# c=0
+# for i in s:
+#     if i in s1:
+#         c=c+1
+#         n=s.replace(i,'-')
+#     if c == 1:
+#         break
+# print(n)
+
+# def Fibonacci(n):
+ 
+#     if n < 0:
+#         print("Incorrect input")
+ 
+#     elif n == 0:
+#         return 0
+ 
+#     elif n == 1 or n == 2:
+#         return 1
+ 
+#     else:
+#         return Fibonacci(n-1) + Fibonacci(n-2)
+# print(Fibonacci(9))
+
+# n=10
+# n1=0
+# n2=1
+# n3=n2
+# c=0
+# print(n1)
+# print(n2)
+# while c<=n:
+#     print(n3,end=" ")
+#     c=c+1
+#     n1,n2=n2,n3
+#     n3=n1+n2
+
+# x = "malayalam"
+ 
+# w = ""
+# for i in x:
+#     w = i + w
+#     print(w)
+# if (x == w):
+#     print("Yes")
+# else:
+#     print("No")
+
+# s="123456"
+
+# sum=0
+# for i in s:
+#     if i.isdigit():
+
+#         sum=sum+i
+# print(sum)
+
+# s="marSM"
+# print(max(s))
+
+class cal:
+    def __init__(self):
+        self.num1=int(input("enter number"))
+        self.num2=int(input("enter number"))
+    def add(self):
+        self.addition=self.num1+self.num2
+        print(self.addition)
+    def mul(self):
+        self.multiplication=self.num1*self.num2
+        print(self.multiplication)
+    def sub(self):
+        self.substraction=self.num1-self.num2
+        print(self.substraction)
+    def div(self):
+        self.division=self.num1/self.num2
+        print(self.division)
+
+    def process(self):
+        while True:
+            print("select operation :")
+            print("Addition -1")
+            print("substraction -2")
+            print("multiplication - 3")
+            print("division -4")
+            print("exit-5")
+            section=input("enter")
+            if section in  ["1","2","3","4","5"]:
+                if section=="1":
+                    object.add()
+                elif section=="2":
+                    object.mul()
+                elif section=="3":
+                    object.sub()
+                elif section=="4":
+                    object.div()
+                elif section=="5":
+
+                    break
+object=cal()
+object.process()
